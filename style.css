@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url("https://images.pexels.com/photos/2923034/pexels-photo-2923034.jpeg?cs=srgb&dl=pexels-edwardeyer-2923034.jpg&fm=jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.Links {
+    background-color: rgb(33, 175, 80);
+    border-radius: 10px;
+    width: 40vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.Links {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.cardapio h2 {
+    background-color: rgb(24, 59, 48);
+    font-size: 2.5rem;
+    border-radius: 20px;
+    width: 30vw;
+    color: aquamarine;
+    margin-bottom: 1rem;
+    text-align: center;
+    height: 9vh;
+    padding-top: 20px;
+
+}
+
+.cardapio {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.itens-cardapio {
+    width: 80%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.itens-cardapio .item {
+    border-radius: 10px;
+    transition: transform 0.3s;
+    padding: 30px;
+    background-color: rgb(163, 75, 34);
+    box-shadow: 0px 0px 4px 1px;
+}
+
+.itens-cardapio .item:hover {
+    transform: scale(1.05);
+}
+
+.itens-cardapio img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.itens-cardapio .infos {
+    background-color: rgb(22, 19, 19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.itens-cardapio .infos h3 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+    color: rgb(47, 189, 4);
+}
+
+.itens-cardapio .infos h4 {
+    font-size: 1rem;
+    color: rgb(30, 129, 30);
+    margin-top: 0.5rem;
+}
+
+.pedir {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background-color: rgb(33, 175, 80);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.pedir:hover {
+    background-color: rgb(26, 139, 64);
+    color: black;
+}
